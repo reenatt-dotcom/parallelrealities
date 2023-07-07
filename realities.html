@@ -3,47 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parallel Realities - Explore Realities</title>
+  <title>Parallel Realities Quiz</title>
   <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
 </head>
 <body>
   <header>
-    <h1>Welcome to Parallel Realities</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="realities.html">Explore Realities</a></li>
-        <!-- Add more navigation links as needed -->
-      </ul>
-    </nav>
+    <h1>Welcome to the Parallel Realities Quiz</h1>
   </header>
 
   <main>
-    <section id="realities">
-      <h2>Explore Parallel Realities</h2>
-      <div class="reality-card">
-        <img src="realitya.jpg" alt="Reality A">
-        <h3>Reality A</h3>
-        <p>Discover a world where magic reigns supreme and mythical creatures roam free.</p>
-        <a href="reality-a.html" class="btn-explore">Explore</a>
-      </div>
+    <div id="quiz-container">
+      <h2>Discover Your Parallel Reality</h2>
+      <form id="quiz-form">
+        <div>
+          <p>Question 1: Which element resonates with you the most?</p>
+          <label><input type="radio" name="question1" value="A"> Air</label>
+          <label><input type="radio" name="question1" value="B"> Fire</label>
+        </div>
+        <div>
+          <p>Question 2: Where would you prefer to spend your free time?</p>
+          <label><input type="radio" name="question2" value="A"> Exploring ancient ruins</label>
+          <label><input type="radio" name="question2" value="B"> Building futuristic technology</label>
+        </div>
+        <div>
+          <p>Question 3: Choose a mythical creature:</p>
+          <label><input type="radio" name="question3" value="A"> Dragon</label>
+          <label><input type="radio" name="question3" value="B"> Phoenix</label>
+        </div>
+        <!-- Add more questions here -->
 
-      <div class="reality-card">
-        <img src="realityb.jpg" alt="Reality B">
-        <h3>Reality B</h3>
-        <p>Step into a futuristic utopia where technology has transformed society.</p>
-        <a href="reality-b.html" class="btn-explore">Explore</a>
-      </div>
-
-      <!-- Add more reality cards as needed -->
-
-    </section>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   </main>
 
-  <footer>
-    <p>&copy; 2023 Parallel Realities. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script> <!-- Link to your JavaScript file for any interactive features -->
+  <script src="script.js"></script> <!-- Link to your JavaScript file for quiz functionality -->
 </body>
 </html>
