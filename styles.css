@@ -119,6 +119,8 @@ html, body {
 
 .reality-image {
     position: relative;
+    width: 300px; /* Adjust the width to your desired size */
+  height: auto;
   }
   
   .reality-image:after {
@@ -175,4 +177,37 @@ html, body {
   
   
   /* ...existing CSS rules... */
+  .secret-image {
+    width: 300px; /* Adjust the width to your desired size */
+    height: auto;
+  }
+  
+  /* Styling for Reality B hotspots */
+.reality-b-hotspot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    cursor: pointer;
+  }
+  
+  .reality-b-hotspot.top-left {
+    top: 47px;
+    left: 790px;
+  }
+  
+  .reality-b-hotspot.top-right {
+    top: 47px;
+    right: 790px;
+  }
+  
+  .reality-b-hotspot.bottom-left {
+    bottom: 72px;
+    left: 790px;
+  }
+  
+  .reality-b-hotspot.bottom-right {
+    bottom: 72px;
+    right: 790px;
+  }
   
