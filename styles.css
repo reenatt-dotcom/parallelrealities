@@ -60,17 +60,7 @@ main {
   margin-bottom: 40px;
 }
 
-/* Footer styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
+
 
 .reality-card {
   display: inline-block;
